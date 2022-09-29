@@ -83,22 +83,22 @@ define_build_bench!(criterion_unidic_build, "unidic/build", "../data/unidic/unid
 define_build_bench!(
     criterion_words_100_build,
     "words_100/build",
-    "../data/words_100"
+    "../data/words_100.txt"
 );
 define_build_bench!(
     criterion_words_5000_build,
     "words_5000/build",
-    "../data/words_5000"
+    "../data/words_5000.txt"
 );
 define_build_bench!(
     criterion_words_15000_build,
     "words_15000/build",
-    "../data/words_15000"
+    "../data/words_15000.txt"
 );
 define_build_bench!(
     criterion_words_100000_build,
     "words_100000/build",
-    "../data/words_100000"
+    "../data/words_100000.txt"
 );
 
 define_find_bench!(
@@ -112,28 +112,28 @@ define_find_bench!(
     criterion_words_100_find,
     add_find_benches,
     "words_100/find",
-    "../data/words_100",
+    "../data/words_100.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_5000_find,
     add_find_benches,
     "words_5000/find",
-    "../data/words_5000",
+    "../data/words_5000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_15000_find,
     add_find_benches,
     "words_15000/find",
-    "../data/words_15000",
+    "../data/words_15000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_100000_find,
     add_find_benches,
     "words_100000/find",
-    "../data/words_100000",
+    "../data/words_100000.txt",
     "../data/sherlock.txt"
 );
 
@@ -169,28 +169,28 @@ define_find_bench!(
     criterion_words_100_find_overlapping,
     add_find_overlapping_benches,
     "words_100/find_overlapping",
-    "../data/words_100",
+    "../data/words_100.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_5000_find_overlapping,
     add_find_overlapping_benches,
     "words_5000/find_overlapping",
-    "../data/words_5000",
+    "../data/words_5000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_15000_find_overlapping,
     add_find_overlapping_benches,
     "words_15000/find_overlapping",
-    "../data/words_15000",
+    "../data/words_15000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_100000_find_overlapping,
     add_find_overlapping_benches,
     "words_100000/find_overlapping",
-    "../data/words_100000",
+    "../data/words_100000.txt",
     "../data/sherlock.txt"
 );
 
@@ -205,28 +205,28 @@ define_find_bench!(
     criterion_words_100_find_leftmost_longest,
     add_find_leftmost_longest_benches,
     "words_100/find_leftmost_longest",
-    "../data/words_100",
+    "../data/words_100.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_5000_find_leftmost_longest,
     add_find_leftmost_longest_benches,
     "words_5000/find_leftmost_longest",
-    "../data/words_5000",
+    "../data/words_5000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_15000_find_leftmost_longest,
     add_find_leftmost_longest_benches,
     "words_15000/find_leftmost_longest",
-    "../data/words_15000",
+    "../data/words_15000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_100000_find_leftmost_longest,
     add_find_leftmost_longest_benches,
     "words_100000/find_leftmost_longest",
-    "../data/words_100000",
+    "../data/words_100000.txt",
     "../data/sherlock.txt"
 );
 
@@ -241,28 +241,28 @@ define_find_bench!(
     criterion_words_100_find_leftmost_first,
     add_find_leftmost_first_benches,
     "words_100/find_leftmost_first",
-    "../data/words_100",
+    "../data/words_100.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_5000_find_leftmost_first,
     add_find_leftmost_first_benches,
     "words_5000/find_leftmost_first",
-    "../data/words_5000",
+    "../data/words_5000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_15000_find_leftmost_first,
     add_find_leftmost_first_benches,
     "words_15000/find_leftmost_first",
-    "../data/words_15000",
+    "../data/words_15000.txt",
     "../data/sherlock.txt"
 );
 define_find_bench!(
     criterion_words_100000_find_leftmost_first,
     add_find_leftmost_first_benches,
     "words_100000/find_leftmost_first",
-    "../data/words_100000",
+    "../data/words_100000.txt",
     "../data/sherlock.txt"
 );
 
