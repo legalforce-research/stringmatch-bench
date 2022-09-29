@@ -4,6 +4,8 @@
 
 Here provides benchmark tools to compare the performance of the data structures:
 
+### Rust
+
 - [`crawdad::Trie`](https://docs.rs/crawdad/latest/crawdad/trie/struct.Trie.html)
 - [`crawdad::MpTrie`](https://docs.rs/crawdad/latest/crawdad/mptrie/struct.MpTrie.html)
 - [`yada::DoubleArray`](https://docs.rs/yada/latest/yada/struct.DoubleArray.html)
@@ -23,9 +25,32 @@ $ cargo run --release --bin measure -- -k ../data/unidic/unidic -t ../data/wagah
 Or, you can measure search time more accurately with [`criterion.rs`](https://github.com/bheisler/criterion.rs) in the following command.
 
 ```
+$ cd ./rust
 $ cargo bench
 ```
 
-## Datasets
+### Python
+
+- [`ahocorasick_rs`](https://github.com/G-Research/ahocorasick_rs)
+- [`daachorse`](https://pypi.org/project/daachorse/)
+
+You can measure search time more accurately with [`pytest`](https://pytest.org/) in the following command.
+
+```
+$ cd ./python
+$ nox
+```
+
+## License
+
+Licensed under either of
+
+ * Apache License, Version 2.0
+   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
 
 The datasets contained [here](./data) are copied from third party repositories.
+Follow the license terms of each software
