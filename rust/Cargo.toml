@@ -1,0 +1,26 @@
+[package]
+name = "stringmatch_bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aho-corasick = "=0.7.19"  # Unlicense or MIT
+crawdad = "=0.4.0"  # MIT or Apache-2.0
+daachorse = "=1.0.0"  # MIT or Apache-2.0
+fst = "=0.4.7"  # Unlicense or MIT
+hashbrown = "=0.12.3"  # MIT or Apache-2.0
+yada = "=0.5.0"  # MIT or Apache-2.0
+
+clap = { version = "4.0.2", features = ["derive"] }  # MIT or Apache-2.0
+rand = "0.8.5"  # MIT or Apache-2.0
+
+[dev-dependencies]
+criterion = { version = "0.4.0", features = ["html_reports"] }  # Apache-2.0 or MIT
+
+[[bench]]
+name = "search"
+harness = false
+
+[[bin]]
+name = "measure"
+path = "src/measure.rs"
