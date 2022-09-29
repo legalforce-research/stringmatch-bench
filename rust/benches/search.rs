@@ -79,7 +79,7 @@ macro_rules! aho_corasick_bench {
     };
 }
 
-define_build_bench!(criterion_unidic_build, "unidic/build", "data/unidic/unidic");
+define_build_bench!(criterion_unidic_build, "unidic/build", "../data/unidic/unidic");
 define_build_bench!(
     criterion_words_100_build,
     "words_100/build",
