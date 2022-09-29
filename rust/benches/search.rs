@@ -141,21 +141,21 @@ define_find_bench!(
     criterion_random10_find_overlapping,
     add_find_overlapping_benches,
     "random10/find_overlapping",
-    "../data/random10",
+    "../data/random10.txt",
     "../data/wagahaiwa_nekodearu.txt"
 );
 define_find_bench!(
     criterion_random20_find_overlapping,
     add_find_overlapping_benches,
     "random20/find_overlapping",
-    "../data/random20",
+    "../data/random20.txt",
     "../data/wagahaiwa_nekodearu.txt"
 );
 define_find_bench!(
     criterion_random50_find_overlapping,
     add_find_overlapping_benches,
     "random50/find_overlapping",
-    "../data/random50",
+    "../data/random50.txt",
     "../data/wagahaiwa_nekodearu.txt"
 );
 define_find_bench!(
