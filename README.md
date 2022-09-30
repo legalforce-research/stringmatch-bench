@@ -41,6 +41,11 @@ $ cd ./python
 $ nox
 ```
 
+## Disclaimer
+
+This software is developed by LegalForce, Inc.,
+but not an officially supported LegalForce product.
+
 ## License
 
 Licensed under either of
