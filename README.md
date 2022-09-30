@@ -2,7 +2,7 @@
 
 ## Tools
 
-Here provides benchmark tools to compare the performance of the data structures for string matching.
+Here provides benchmark tools to compare the performance of data structures for string matching.
 
 ### Rust
 
